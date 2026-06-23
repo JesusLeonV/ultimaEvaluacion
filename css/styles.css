@@ -1,7 +1,19 @@
-/* Feedback visual para validaciones [cite: 30, 60] */
-.is-invalid { border: 2px solid red; }
-.is-valid { border: 2px solid green; }
+.is-invalid {
+    border: 2px solid #ff0000;
+}
 
-.producto-card { border: 1px solid #ccc; padding: 10px; margin: 5px; }
+.is-valid {
+    border: 2px solid #00ff00;
+}
 
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
 
+#contenedorProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
