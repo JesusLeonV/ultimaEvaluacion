@@ -1,5 +1,22 @@
-
 [
-    { "id": 1, "nombre": "LEGO Star Wars X-Wing", "precio": 45000 },
-    { "id": 2, "nombre": "LEGO Technic Ferrari", "precio": 120000 }
-]
+    { "id": 1, "nombre": "LEGO Star Wars X-Wing", "precio": 45000, "codigo": "SW001" },
+    { "id": 2, "nombre": "LEGO Technic Ferrari", "precio": 120000, "codigo": "TEC002" },
+    { "id": 3, "nombre": "LEGO City Fire Station", "precio": 80000, "codigo": "CIT003" },
+    { "id": 4, "nombre": "LEGO Star Wars Millennium Falcon", "precio": 150000, "codigo": "SW004" },
+    { "id": 5, "nombre": "LEGO Technic Bugatti Chiron", "precio": 200000, "codigo": "TEC005" },
+    { "id": 6, "nombre": "LEGO City Police Station", "precio": 90000, "codigo": "CIT006" },
+    { "id": 7, "nombre": "LEGO Star Wars Death Star", "precio": 180000, "codigo": "SW007" },
+    { "id": 8, "nombre": "LEGO Technic Porsche 911", "precio": 130000, "codigo": "TEC008" },
+    { "id": 9, "nombre": "LEGO City Hospital", "precio": 95000, "codigo": "CIT009" },
+    { "id": 10, "nombre": "LEGO City Coffee Shop", "precio": 160000, "codigo": "CIT010" },
+    { "id": 11, "nombre": "LEGO Star Wars AT-AT", "precio": 140000, "codigo": "SW011" },
+    { "id": 12, "nombre": "LEGO Technic Lamborghini", "precio": 190000, "codigo": "TEC012" },
+    { "id": 13, "nombre": "LEGO City Airport", "precio": 85000, "codigo": "CIT013" },
+    { "id": 14, "nombre": "LEGO Star Wars TIE Fighter", "precio": 70000, "codigo": "SW014" },
+    { "id": 15, "nombre": "LEGO Technic Mercedes-Benz", "precio": 175000, "codigo": "TEC015" },
+    { "id": 16, "nombre": "LEGO City Train Station", "precio": 95000, "codigo": "CIT016" },
+    { "id": 17, "nombre": "LEGO Star Wars Slave I", "precio": 155000, "codigo": "SW017" },
+    { "id": 18, "nombre": "LEGO Technic McLaren Senna", "precio": 185000, "codigo": "TEC018" },
+    { "id": 19, "nombre": "LEGO City Fire Truck", "precio": 75000, "codigo": "CIT019" },
+    { "id": 20, "nombre": "LEGO Star Wars Boba Fett's Starship", "precio": 165000, "codigo": "SW020" }
+    ]

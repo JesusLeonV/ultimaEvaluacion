@@ -1,10 +1,9 @@
 export async function getProductos() {
     try {
-        const response = await fetch('../data/productos.json');
-        if (!response.ok) throw new Error('Error al cargar datos');
+        const response = await fetch('./data/productos.json');
         return await response.json();
     } catch (error) {
-        console.error("Fallo en la API:", error);
+        console.error("Error al cargar JSON:", error);
         return [];
     }
 }

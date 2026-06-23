@@ -1,0 +1,14 @@
+[
+    {
+        "email": "admin@tiendalego.cl",
+        "clave": "admin123",
+        "nombre": "Jesús",
+        "rol": "Administrador"
+    },
+    {
+        "email": "evaluador@santotoms.cla",
+        "clave": "profe123",
+        "nombre": "Profesor",
+        "rol": "Evaluador"
+    }
+]

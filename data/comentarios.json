@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "autor": "Carlos Mendoza",
+        "comentario": "Excelente servicio, el set llegó impecable y súper rápido. ¡100% recomendado!",
+        "estrellas": "★★★★★"
+    },
+    {
+        "id": 2,
+        "autor": "Ana María Silva",
+        "comentario": "El Ferrari Technic está a otro nivel. Muy buena atención en la gestión de la compra.",
+        "estrellas": "★★★★★"
+    },
+    {
+        "id": 3,
+        "autor": "Diego pe",
+        "comentario": "Buenos precios y excelente disposición para responder dudas sobre el stock.",
+        "estrellas": "★★★★☆"
+    }
+]

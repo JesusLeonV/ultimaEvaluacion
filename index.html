@@ -2,24 +2,59 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Tienda de LEGOs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrickStore - Catálogo Exclusivo LEGO</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header><h1>Tienda LEGO</h1></header>
-    <main>
-        <form id="legoForm">
-            <input type="text" id="nombre" placeholder="Nombre" required>
-            <input type="number" id="precio" placeholder="Precio" required>
-            <input type="text" id="codigo" placeholder="Código" required>
-            <select id="categoria" required>
-                <option value="">Seleccione</option>
-                <option value="starwars">Star Wars</option>
-            </select>
-            <button type="submit">Agregar</button>
-        </form>
-        <div id="contenedorProductos"></div>
-    </main>
-    <script src="js/app.js" type="module"></script>
+    <nav>
+        <div class="logo">LEGO STORE</div>
+        <a href="login.html">Panel Interno</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h1>LEGO en un solo lugar</h1>
+            <p>Explora, gestiona y colecciona los sets más icónicos del mundo.</p>
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-item">
+                <h3>📦 Envíos Seguros</h3>
+                <p>Despachamos tu set con el máximo cuidado protector.</p>
+            </div>
+            <div class="feature-item">
+                <h3>💎 100% Originales</h3>
+                <p>Productos oficiales directamente de LEGO.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🛠️ Soporte Experto</h3>
+                <p>Te ayudamos a encontrar la serie ideal para ti.</p>
+            </div>
+        </section>
+
+        <main>
+            <h2 class="section-title">Sets Disponibles</h2>
+            <div class="filter-container" style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                <label for="filtroCategoria" style="font-weight: bold; color: var(--dark);">Filtrar por Categoría:</label>
+                <select id="filtroCategoria" style="max-width: 250px; padding: 8px;">
+                    <option value="todos">Todos los sets</option>
+                    <option value="starwars">Star Wars</option>
+                    <option value="technic">Technic</option>
+                    <option value="city">City</option>
+                    <option value="creator">Creator</option>
+                    <option value="friends">Friends</option>
+                </select>
+            </div>
+            <section id="contenedorProductos"></section>
+        </main>
+
+        <section class="reviews-section">
+            <h2 class="section-title">Lo que dicen nuestros coleccionistas</h2>
+            <div id="contenedorComentarios"></div>
+        </section>
+    </div>
+
+    <script src="js/cliente.js" type="module"></script>
 </body>
 </html>

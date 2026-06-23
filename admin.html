@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Almacén LEGO - Gestión</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Salir (Cerrar Sesión)</a>
+        </nav>
+        <header>
+            <h1>Gestión de Almacén</h1>
+            <p>Ingresa nuevos sets al inventario</p>
+        </header>
+        <div id="saludoUsuario" style="text-align: center; background: #ffeaa7; padding: 10px; font-weight: bold; border-radius: 8px; margin-bottom: 20px; color: #d35400;"></div>
+
+        <main>
+            <form id="legoForm">
+                <input type="text" id="nombre" placeholder="Nombre del Set" required>
+                <input type="number" id="precio" placeholder="Precio ($)" required>
+                <input type="text" id="codigo" placeholder="Código" required>
+                <select id="categoria" required>
+                    <option value="">Categoría...</option>
+                    <option value="starwars">Star Wars</option>
+                    <option value="technic">Technic</option>
+                    <option value="city">City</option>
+                    <option value="creator">Creator</option>
+                    <option value="friends">Friends</option>
+                </select>
+                <button type="submit">Guardar Producto</button>
+            </form>
+
+            <div id="feedback" style="text-align: center; margin-bottom: 20px; font-weight: bold;"></div>
+            
+            <h2>Inventario Actual</h2>
+            <div class="filter-container" style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+                <label for="filtroCategoria" style="font-weight: bold; color: var(--dark);">Filtrar por Categoría:</label>
+                <select id="filtroCategoria" style="max-width: 250px; padding: 8px;">
+                    <option value="todos">Todos los sets</option>
+                    <option value="starwars">Star Wars</option>
+                    <option value="technic">Technic</option>
+                    <option value="city">City</option>
+                    <option value="creator">Creator</option>
+                    <option value="friends">Friends</option>
+                </select>
+            </div>
+            <section id="contenedorProductos"></section>
+        </main>
+    </div>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
