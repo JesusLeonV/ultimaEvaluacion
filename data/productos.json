@@ -1,1 +1,5 @@
 
+[
+    { "id": 1, "nombre": "LEGO Star Wars X-Wing", "precio": 45000 },
+    { "id": 2, "nombre": "LEGO Technic Ferrari", "precio": 120000 }
+]
